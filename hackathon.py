@@ -13,6 +13,7 @@ from datetime import datetime
 TOKEN = #insert token ID of the chatbot
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 DATA=[]
+
 #list of valid flat numbers
 valid_address=['A201','A202','A203','A204','A301','A302','A303','A304','A401',
 'A402','A403','A404','A501','A502','A503','A504','A601','A602','A603','A604',
@@ -256,7 +257,7 @@ def main():
                                 elif((token_counter%5==0) and (token_counter!=0) and (token_counter+5<last_token_id)):
                                     inform_admin(token_counter)
                                 elif(text=="/start"):
-                                    send_message("Welcome to Century Central Token Management System\nValid commands are:\n 1.Apt# (To Request Token e.g. D702)\n 2.Done (After Billing)\n 3.List All\n 4.Status",chat)
+                                    send_message("Welcome to Token Management System\nValid commands are:\n 1.Apt# (To Request Token e.g. D702)\n 2.Done (After Billing)\n 3.List All\n 4.Status",chat)
                                 elif(text.strip().upper()=='STATUS' or text.strip().upper()=='/STATUS'):
                                     current_status(chat,token_counter,last_token_id)
                                 elif(text.strip().upper()=='LIST ALL' or text.strip().upper()=='/LIST ALL'):
