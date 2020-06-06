@@ -1,0 +1,6 @@
+---
+applications:
+ - name: TokenSystem
+   command: python hackathon.py
+   no-route: true
+   memory: 128M
