@@ -32,7 +32,7 @@ I tested this with residents on 6th June, 2020. I was surprised to see the amoun
 
 ## Prerequisites 
 Python 3 compiler    
-Telegram bot token
+Telegram bot token    
 IBM Cloud CLI
 
 ## IBM Service used
