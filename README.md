@@ -27,3 +27,13 @@ I tested this with residents on 6th June, 2020. I was surprised to see the amoun
 ## Solution Roadmap with future plans
 
 ![Solution Roadmap](https://github.com/PritikaRamu/WiT-Submission/blob/master/WiT.jpg)
+
+## IBM Service used
+IBM Cloud Foundry Apps
+
+After setting up the ibmcloud CLI and setting appropriate endpoints,
+the code was pushed using the following command
+
+```bash
+ibmcloud cf push
+```
