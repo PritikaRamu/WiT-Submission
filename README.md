@@ -1,7 +1,7 @@
 # Token Management System
 
 ### Short Description
-A chatbot to manage a token system to reduce wait time and maintain social distancing while shopping.
+A chatbot to manage a token system to reduce wait time and maintain social distancing while shopping in the apartment.
 
 ### Long Description
 In my apartment complex, to ensure that residents did not have to wait in long lines and to control the number of people at the shop, the management came up with a token system. Physical tokens were handed out on a first come first serve basis. There were few days when the line to collect the physical token was also long. It was a tedious task to constantly look out of the window and inform the next set of token holders. They also had to sanitise the tokens after each use. To make this task easier, I wanted to automate this process with an easy to use application. Instead of making a mobile application, I decided to build a Telegram chatbot as most residents are already on Telegram. This application is written in Python and is deployed in **IBM Cloud Foundry**. This is how the bot works:
