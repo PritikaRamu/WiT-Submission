@@ -31,7 +31,7 @@ I tested this with residents on 6th June, 2020. I was surprised to see the amoun
 ![Solution Roadmap](https://github.com/PritikaRamu/WiT-Submission/blob/master/WiT.jpg)
 
 ## Prerequisites 
-Python 3 compiler
+Python 3 compiler    
 Telegram bot token
 IBM Cloud CLI
 
