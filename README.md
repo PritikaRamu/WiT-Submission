@@ -1,9 +1,9 @@
 # Token Management System
 
-#### Short Description
+### Short Description
 A chatbot to manage a token system to reduce wait time and maintain social distancing while shopping.
 
-#### Long Description
+### Long Description
 In my apartment complex, to ensure that residents did not have to wait in long lines and to control the number of people at the shop, the management came up with a token system. Physical tokens were handed out on a first come first serve basis. There were few days when the line to collect the physical token was also long. It was a tedious task to constantly look out of the window and inform the next set of token holders. They also had to sanitise the tokens after each use. To make this task easier, I wanted to automate this process with an easy to use application. Instead of making a mobile application, I decided to build a Telegram chatbot as most residents are already on Telegram. This application is written in Python and is deployed in **IBM Cloud Foundry**. This is how the bot works:
 1.	The application is started by the administrator. A message is sent to the Telegram group of the residents informing them that they can request for tokens.
 2.	The resident requests for a token by entering a valid flat number into the chatbot. The token number is given on first come first serve basis. One token is given per flat, per user.
@@ -23,10 +23,17 @@ Valid commands:
 
 I tested this with residents on 6th June, 2020. I was surprised to see the amount of token numbers that were allotted within a minute.
 
+## Demo Video
+[![Token Management System]](https://www.youtube.com/watch?v=VJKeE2vb_94 "Token Management System")
 
 ## Solution Roadmap with future plans
 
 ![Solution Roadmap](https://github.com/PritikaRamu/WiT-Submission/blob/master/WiT.jpg)
+
+## Prerequisites 
+Python 3 compiler
+Telegram bot token
+IBM Cloud CLI
 
 ## IBM Service used
 IBM Cloud Foundry Apps
