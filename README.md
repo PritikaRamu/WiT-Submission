@@ -24,7 +24,7 @@ Valid commands:
 I tested this with residents on 6th June, 2020. I was surprised to see the amount of token numbers that were allotted within a minute.
 
 ## Demo Video
-[![Token Management System]](https://www.youtube.com/watch?v=VJKeE2vb_94 "Token Management System")
+[![Token Management System](https://img.youtube.com/vi/VJKeE2vb_94/maxresdefault.jpg)](https://www.youtube.com/watch?v=VJKeE2vb_94 "Token Management System")
 
 ## Solution Roadmap with future plans
 
